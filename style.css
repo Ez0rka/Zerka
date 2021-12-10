@@ -47,6 +47,12 @@ h1{
 	height:100vh;
 }
 
+#driver_block {
+	height: 40vh;
+	border-radius: 25px;
+	/*https://www.cssmatic.com/box-shadow*/
+}
+
 #driver_img, #driver_text {
 	float: left;
 	width: 50%;
