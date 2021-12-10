@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+
+header {
+	background: url(https://i.stack.imgur.com/E810h.png);
+}
+
+h1{
+	text-align: center;
+	color: green;
+	position: absolute;
+	top: 20%;
+	left: 23%;
+	font-size: 100px;
+	text-shadow: 11px 17px 5px rgba(255, 255, 255, .1);
+	/*https://css3gen.com/text-shadow/*/
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 40px auto 0 auto;
+	/*height: 600px;
+	background: #000;*/
+}
+
+.grey_block {
+	background: #eee;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.site_block{
+	/*height: 600px;
+	background: #000;*/
+	padding: 20px 60px 20px 60px;
+	font-size: 25px;
+	overflow: hidden;
+	height:100vh;
+}
+
+#driver_img, #driver_text {
+	float: left;
+	width: 50%;
+}
+
+#driver_img img{
+	display: block;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+
+#service_block {
+	height: 140vh;
+}
+
+#service_block h2 {
+	margin-bottom: 70px;
+}
+
+.service_item {
+	height: 250px;
+	width: 360px;
+	//background: red;
+	float: left;
+	margin: 0 0 25px 0;
+}
+
+.service_item img {
+	display: block;
+	width: 50%;
+	border-radius: 50%;
+	margin: 0 auto 0 auto;
+}
+
+.call_to_action {
+	width: 50%;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+}
+
+.call_to_action a {
+	display: block;
+	width: 33.3%;
+	float: left;
+	margin: 70px 0 0 0;
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	font-weight: 500;
+	padding: 5px 0 5px 0;
+}
+
+.call_to_action a:hover {
+	background: #ddd;
+	color: #000;
+
+}
+
+.review_item {
+	width:300px ;
+	height:310px ;
+	float: left;
+	background: #424242;
+	margin: 0 0 34px 60px;
+	border-radius: 4px;
+}
+
+.review_item img {
+	display: block;
+	width: 40%;
+	margin: 15px auto 0 auto;
+	border-radius: 50%;
+}
+
+.review_item p {
+	font-size: 15px;
+	color: white;
+	padding: 20px;
+}
+#car_block
