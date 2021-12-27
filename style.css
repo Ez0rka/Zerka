@@ -9,12 +9,13 @@ body{
 
 
 header {
-	background: url(https://i.stack.imgur.com/E810h.png);
+	background: url(202.png)
+
 }
 
 h1{
 	text-align: center;
-	color: green;
+	color: whitesmoke;
 	position: absolute;
 	top: 20%;
 	left: 23%;
@@ -66,7 +67,7 @@ h1{
 
 
 #service_block {
-	height: 90vh;
+	height: 85vh;
 	/*background: #000;*/
 }
 
